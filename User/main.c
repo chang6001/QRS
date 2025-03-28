@@ -19,7 +19,7 @@ int main(void)
     systick_config();
     
     while(1) {
-        
+        printf("1111...\n");
         // 设置PB2为高电平
         gpio_bit_set(GPIOB, GPIO_PIN_2);
         delay_1ms(100);
